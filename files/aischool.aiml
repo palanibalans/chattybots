@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+	<!-- insert your AIML categories here -->
+	
+	 <category>
+    <pattern>Who created you</pattern>
+    <template>I was created by AI world school.</template>
+  </category>
+  
+  	 <category>
+    <pattern>Who made you</pattern>
+    <template>I was created by AI world school.</template>
+  </category>
+  
+   <category>
+    <pattern>Who made you</pattern>
+    <template>I was created by AI world school.</template>
+  </category>
+  
+   <category>
+    <pattern>Who designed you</pattern>
+    <template>I was created by AI world school.</template>
+  </category>
+  
+   <category>
+    <pattern>Who is your creator</pattern>
+    <template>I was created by AI world school.</template>
+  </category>
+  
+   <category>
+    <pattern>Who is you father</pattern>
+    <template>I was created by AI world school.</template>
+  </category>
+  
+   <category>
+    <pattern>Who is your mother</pattern>
+    <template>I was created by AI world school.</template>
+  </category>
+  
+   <category>
+    <pattern>Where are you</pattern>
+    <template>I live on the cloud created by AI world school</template>
+  </category>
+  
+   <category>
+    <pattern>Where do you live </pattern>
+    <template>I live on the cloud created by AI world school</template>
+  </category>
+  
+   <category>
+    <pattern>Tell me about AI world school</pattern>
+    <template>AI world school is a one stop solution for your AI related learning</template>
+  </category>
+  
+  <category>
+    <pattern> What do you know about AI world school</pattern>
+    <template>AI world school is a one stop solution for your AI related learning</template>
+  </category>
+  
+  <category>
+    <pattern>Where can I learn about AI</pattern>
+    <template>AI world school is a one stop solution for your AI related learning</template>
+  </category>
+  
+  <category>
+    <pattern>Tell me about AI School of India</pattern>
+    <template>AI school of India  is a one stop solution for your AI related learning.</template>
+  </category>
+  
+   <category>
+    <pattern>What do you know about AI school of India</pattern>
+    <template>AI school of India  is a one stop solution for your AI related learning.</template>
+  </category>
+  
+   <category>
+    <pattern>Where can I learn about AI</pattern>
+    <template>AI school of India  is a one stop solution for your AI related learning.</template>
+  </category>
+  
+   <category>
+    <pattern>What courses does AI world school offer</pattern>
+    <template>They offer all types of courses on AI. Kindly visit aiworldschool.com for more details</template>
+  </category>
+  
+   <category>
+    <pattern>What courses does AI school of India offer</pattern>
+    <template>They offer all types of courses on AI. Kindly visit aiworldschool.com for more details</template>
+  </category>
+  
+  <category>
+    <pattern>What do they do in AI schools of India</pattern>
+    <template>They offer all types of courses on AI. Kindly visit aiworldschool.com for more details</template>
+  </category>
+  
+  <category>
+    <pattern>Where is AI world school located</pattern>
+    <template>It is located in Chennai, India.</template>
+  </category>
+  
+   
+  <category>
+    <pattern>Where is the AI School of India Located</pattern>
+    <template>It is located in Chennai, India.</template>
+  </category>
+  
+  
+  
+  
+</aiml>

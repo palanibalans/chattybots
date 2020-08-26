@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  <category>
+    <pattern>Hello</pattern>
+    <template>Hello there</template>
+  </category>
+    
+    <category>
+    <pattern>Hai</pattern>
+    <template><random>
+        <li>hai there</li>
+        <li>hello there</li>
+    </random></template>
+  </category>
+ 
+  <category>
+    <pattern>Roll a dice</pattern>
+    <template><random>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </random></template>
+  </category>
+  
+  <category>
+      <pattern>test</pattern>
+      <template>
+          <set name="person">
+          <random>
+              <li>devasena</li>
+              <li>palanibalan</li>
+          </random>
+            eat
+          <random>
+              <li>briyani</li>
+              <li>palaya soru</li>
+          </random>
+          </set><get name="person"></get>
+      </template>
+  </category>
+  
+  
+    <category>
+    <pattern>_ chatty</pattern>
+    <template>hey, hai i don't know you before, may I know your name  </template>
+  </category>
+   
+    <category>
+    <pattern>say *</pattern>
+    <template><star index ="1"/></template>
+  </category>
+  
+   <category>
+    <pattern>my name is *</pattern>
+   <template>hello<set name ="firstname"> <star index = "1"/></set></template>
+  </category>
+  
+  
+  <category>
+    <pattern>What is my name</pattern>
+    <template>your name is <get name ="firstname"> <star/></get></template>
+  </category>
+  
+  
+  <category>
+    <pattern>please remember my * * in my  * </pattern>
+    <template>okay, your <set name = "mac"> <star index ="1"/></set>  <set name = "key"> <star index ="2"/></set> is in your<set name = "in"> <star index ="3"/></set></template>
+  </category>
+  
+  <category>
+    <pattern> remember </pattern>
+    <template>your <get name = "mac"></get><get name ="key"/> in your <get name  = "in"/> </template>
+  </category>
+  
+  
+</aiml>
